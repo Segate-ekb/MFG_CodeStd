@@ -1,5 +1,5 @@
 site_name: Стандарты разработки 1С для людей
-site_url: https://segate-ekb.github.io/MFG_CodeStd/
+site_url: https://segate-ekb.github.io/MFG_CodeStd
 site_author: Иванов Егор
 site_description: >-
   Система стандартов и&nbsp;методик разработки конфигураций для платформы 1С:Предприятие 8,
@@ -64,6 +64,9 @@ plugins:
         - ru
 
 extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: 'https://t.me/radio_ingvar'
   analytics:
     provider: google
     property: G-T64GZF40WT
