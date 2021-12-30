@@ -1,0 +1,44 @@
+{% extends "main.html" %}
+
+<!-- Render support under content -->
+{% block content %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+    
+    .mdx-hero__image {
+      display: table-cell;
+    }
+    .mdx-hero__text {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 8px;
+    }
+
+  </style>
+
+  <section class="mdx-container">
+
+    <hr>
+
+    <p>Вы можете отблагодарить меня за работу, перечислив любое пожертвование.<br>
+      Тогда я возможно куплю себе еще один монитор и смогу работать аж в четыре руки :)</p>
+
+    <div class="mdx-hero">
+      <a
+        href="https://www.tinkoff.ru/cf/SKeJ13i0Pb"
+        title="Перейти на сайт Тинькофф чтобы сделать пожертвование"
+        target="__blank"
+        class="md-button"
+      >
+        <div class="mdx-hero__image">
+          <img src="../assets/images/tinkoff.png" width="48" height="48" draggable="false" /> 
+        </div>
+        <div class="mdx-hero__text">Сделать пожертвование</div>
+      </a>
+    </div>
+
+  </section>
+
+{% endblock %}

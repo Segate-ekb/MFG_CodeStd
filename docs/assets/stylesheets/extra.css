@@ -1,0 +1,27 @@
+/* Color for header at dark*/
+[data-md-color-scheme=slate] .md-header {
+    background-color: #16171D;
+}
+
+/* disable toc nav*/
+.md-nav--secondary {
+    display: none;
+}
+
+/* Color for iterators */
+.md-typeset h6 {
+    color: #CDCDCD;
+}
+
+/* Color for iterators at dark */
+[data-md-color-scheme=slate] .md-typeset h6 {
+    opacity: .2
+}
+/* Color for anchors at dark*/
+[data-md-color-scheme=slate] a {
+    color: #95A0EB;
+}
+
+.md-typeset .md-button {
+    color: var(--md-typeset-a-color);
+}
