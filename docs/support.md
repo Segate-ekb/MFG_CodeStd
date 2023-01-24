@@ -6,13 +6,11 @@ hide:
   - feedback
 ---
 
-# Помочь
+# Контакты и оплата
 
-### Нашли ошибку?
+### Следи за новостями!
 
-Работа по такому описанию очень трудозатратна, кроме того, надо поддерживать репозиторий в актуальном состоянии. Поэтому в первую очередь на человеческий язык будут переводиться самые важные стандарты.
-
-[Пожаловаться или предложить идею](https://github.com/zeegin/v8std-for-humans/issues/new){ .md-button }
+[Присоединяйся к телеграм!](https://t.me/+i6A4xolMhfFhOWQy){ .md-button }
 
 ### Хотите внести исправление?
 
@@ -21,15 +19,5 @@ hide:
 Хотите изменить дизайн, посмотреть как будет выглядеть правка локально?
 Выполните следующие операции на своем компьютере:
 
-```cmd
-pip install --upgrade pip
-pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-redirects pygments-bsl
-
-git clone https://github.com/zeegin/v8std-for-humans.git
-
-cd v8std-for-humans
-
-mkdocs serve --watch-theme
-```
 
 Теперь по адресу `http://127.0.0.1:8000` можно открыть документацию на своем компьютере.

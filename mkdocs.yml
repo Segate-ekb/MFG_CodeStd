@@ -1,17 +1,13 @@
-site_name: Стандарты разработки 1С для людей
-site_url: https://segate-ekb.github.io/MFG_CodeStd
+site_name: DevOps в 1с
+site_url: Https://1cdevelopers.ru/
 site_author: Иванов Егор
 site_description: >-
-  Система стандартов и&nbsp;методик разработки конфигураций для платформы 1С:Предприятие 8,
-  опубликованная <a href=https://its.1c.ru/db/v8std>https://its.1c.ru/db/v8std</a> очень сложна.<br><br>
-  Этот проект создан, для того чтобы описать эти&nbsp;же стандарты другими словами.<br>
-  Проще. Понятнее. С&nbsp;примерами.
+  Меня зовут Иванов Егор, я специалист по DevOps-практикам в 1с.<br><br>
+  Мой опыт и те сложности, с которыми я и моя команда столкнулись при внедрении devOps- практик,
+   помогли мне наработать большую базу знаний и методик,которыми я решил поделиться с вами на курсе "DevOps в 1С".
 
-repo_name: Segate-ekb/MFG_CodeStd
-repo_url: https://github.com/Segate-ekb/MFG_CodeStd
-edit_uri: edit/master/docs
 
-copyright: No Rights Reserved CREATIVE COMMONS CC0
+copyright: Https://1cdevelopers.ru/
 
 theme:
   name: material
@@ -66,7 +62,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/telegram
-      link: 'https://t.me/radio_ingvar'
+      link: 'https://t.me/+i6A4xolMhfFhOWQy'
   analytics:
     provider: google
     property: G-T64GZF40WT
@@ -117,24 +113,6 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Домашняя: index.md
-  - Стандарты:
-    - Создание и изменение объектов метаданных:
-      - Организация работы конфигурации:
-        - Общие требования к конфигурации: std/std467.md
-        - Работа в разных часовых поясах: std/std643.md
-    - Реализация обработки данных:
-      - Обработка и модификация данных:
-        - "Транзакции: правила использования": std/std783.md
-      - Работа с запросами:
-        - Проверка на пустой результат выполнения запроса: std/std438.md
-    - Соглашения при написании кода:
-      - Оформление модулей:
-        - Структура модуля: std/std455.md
-        - Правила образования имен переменных: std/std454.md
-        - Имена процедур и функций: std/std647.md
-      - Использование конструкций встроенного языка:
-        - Ограничение на использование оператора Перейти: std/std547.md
-    - Общие вопросы безопасности: 
-      - Безопасность прикладного программного интерфейса сервера: std/std678.md
-  - Помочь: support.md
+  #- О курсе: index.md
+  - Программа курса "DevOps в 1с": index.md
+ # - Контакты и оплата: support.md
